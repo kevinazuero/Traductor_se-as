@@ -1,0 +1,22 @@
+{% extends 'Base_form.html' %}
+{% block content %}
+        {% load static %}
+        <div id="container2" class="container">
+            <p style="text-align: right;">0:30</p>
+            <img class="camera" src="{% static 'img/sinv.jpg' %}" alt="Cámara simulada" >
+            <div class="botones">
+            <button id="boton1" class="envio" type="submit">Iniciar</button>
+            <button id="boton1" class="envio" type="submit">Limpiar</button>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="email">Texto Traducido:</label>
+                    <div class="cuadro" style="position: relative;">
+                        <input id="cuadro_texto" name="traducido" placeholder="El Texto se mostrara aqui" required>
+                        <a id="volumeButton" ><i class="bi bi-volume-up-fill"></i></a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+{% endblock %}

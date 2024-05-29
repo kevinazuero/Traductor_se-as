@@ -1,0 +1,46 @@
+{% extends 'Base_form.html' %}
+{% block content %}
+    <div id="container3" class="container">
+        <!-- Agregar campo de búsqueda -->
+        <input type="text" id="searchInput" placeholder="Buscar palabras...">
+        <button id="boton3" class="envio" type="submit">Buscar</button>
+        <button id="boton3" class="envio" type="submit">Limpiar</button>
+    </div>
+
+    <div id="container3" class="container">
+        <ul id="word-list">
+            <li class="word-item">
+                <span>Buenos días</span>: <span class="count">8</span> <span class="timestamp">29/4/24 - 14:49</span>
+            </li>
+            <li class="word-item">
+                <span>Buenas tardes</span>: <span class="count">5</span> <span class="timestamp">29/4/24 - 15:00</span>
+            </li>
+            <li class="word-item">
+                <span>Buenas noches</span>: <span class="count">3</span> <span class="timestamp">29/4/24 - 15:06</span>
+            </li>
+            <li class="word-item">
+                <span>Cómo estás</span>: <span class="count">10</span> <span class="timestamp">29/4/24 - 15:19</span>
+            </li>
+            <li class="word-item">
+                <span>Gracias</span>: <span class="count">15</span> <span class="timestamp">29/4/24 - 15:24</span>
+            </li>
+            <li class="word-item">
+                <span>Por favor</span>: <span class="count">12</span> <span class="timestamp">29/4/24 - 15:29</span>
+            </li>
+            <li class="word-item">
+                <span>Hola</span>: <span class="count">20</span> <span class="timestamp">29/4/24 - 15:31</span>
+            </li>
+            <li class="word-item">
+                <span>Adiós</span>: <span class="count">7</span> <span class="timestamp">29/4/24 - 15:40</span>
+            </li>
+            <li class="word-item">
+                <span>Sí</span>: <span class="count">18</span> <span class="timestamp">29/4/24 - 15:47</span>
+            </li>
+            <li class="word-item">
+                <span>No</span>: <span class="count">9</span> <span class="timestamp">29/4/24 - 15:51</span>
+            </li>
+        </ul>
+    </div>   
+ {% endblock %}
+
+
